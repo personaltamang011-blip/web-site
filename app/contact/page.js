@@ -11,7 +11,7 @@ export default function ContactPage() {
 
       <Link
         href="/"
-        className="mt-6 text-blue-600 hover:text-blue-800 font-medium"
+        className="mt-6 text-gray-600 hover:text-blue-800 font-medium"
       >
         ← Back to Home
       </Link>
