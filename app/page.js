@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <header className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
         <div className="container mx-auto flex items-center justify-between px-6 py-3">
-          <Link href="/" className="text-2xl font-bold text-blue-600">
+          <Link href="/" className="text-2xl font-bold text-gray-600">
             Mani<span className="text-gray-800">Sarmi</span>
           </Link>
 
@@ -61,7 +61,7 @@ export default function Home() {
   {/* === Button to Cards Page === */}
   <Link
     href="/cards"
-    className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-all"
+    className="px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-pink-700 transition-all"
   >
     View Cards
   </Link>

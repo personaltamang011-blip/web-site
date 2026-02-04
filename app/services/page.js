@@ -11,7 +11,7 @@ export default function ServicesPage() {
 
       <Link
         href="/"
-        className="mt-6 text-gray-600 hover:text-blue-800 font-medium"
+        className="mt-6 text-green-600 hover:text-pink-800 font-medium"
       >
         ← Back to Home
       </Link>
