@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+/* === Global Styles === */
+body {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-weight: 500;
+}
+
+
+/* === Navbar Links === */
+
+
+/* === Smooth Scroll and Animation === */
+html {
+  scroll-behavior: smooth;
+}
