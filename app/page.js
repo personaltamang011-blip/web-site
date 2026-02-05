@@ -15,6 +15,7 @@ export default function Home() {
 
   return (
     <>
+      {/* === Navbar === */}
       <header className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
         <div className="container mx-auto flex items-center justify-between px-6 py-3">
           <Link href="/" className="text-2xl font-bold text-gray-600">
@@ -50,23 +51,61 @@ export default function Home() {
           </nav>
         )}
       </header>
-<main className="pt-24 flex flex-col items-center justify-center min-h-screen bg-gray-50 text-center">
-  <h1 className="text-4xl font-bold text-gray-800 mb-4">
-    Welcome to Mani Sarmi
-  </h1>
-  <p className="text-gray-600 text-lg mb-8">
-    Explore our modern, responsive web components below.
-  </p>
 
-  {/* === Button to Cards Page === */}
-  <Link
-    href="/cards"
-    className="px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-pink-700 transition-all"
-  >
-    View Cards
-  </Link>
-</main>
+      {/* === Main Content === */}
+      <main className="pt-24 flex flex-col items-center justify-center min-h-screen bg-gray-50 text-center">
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">
+          Welcome to Mani Sarmi
+        </h1>
+        <p className="text-gray-600 text-lg mb-8">
+          Explore our modern, responsive web components below.
+        </p>
 
+        {/* === Button to Cards Page === */}
+        <Link
+          href="/cards"
+          className="px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-pink-700 transition-all"
+        >
+          View Cards
+        </Link>
+
+        {/* === External Link Button === */}
+        <a
+          href="https://responsive-form-demo.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-pink-700 transition-all"
+        >
+          Manual Form
+        </a>
+
+        <a
+          href="https://comp-form-demo.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-pink-700 transition-all"
+        >
+          Automatic Form
+        </a>
+
+        <a
+          href="https://church-inventory-pwa.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-pink-700 transition-all"
+        >
+          church Form 
+        </a>
+
+        <a
+          href="https://responsive-form-demo.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-pink-700 transition-all"
+        >
+           Responsive Form
+        </a>
+      </main>
     </>
   );
 }
